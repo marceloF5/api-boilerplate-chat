@@ -1,0 +1,42 @@
+{
+  "name": "api-be-boilerplate-mongodb-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon dist/server",
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "Marcelo Fortunato",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "http-status": "1.0.1",
+    "jsonwebtoken": "7.4.0",
+    "mongoose": "5.0.14",
+    "morgan": "1.9.0" 
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.1",
+    "@types/body-parser": "1.16.8",
+    "@types/express": "4.11.1",
+    "@types/http-status": "0.2.30",
+    "@types/jsonwebtoken": "7.2.6",
+    "@types/lodash": "4.14.107",
+    "@types/morgan": "1.7.35",
+    "@types/node": "8.10.5",    
+    "@types/mongodb": "3.0.12",
+    "@types/mongoose": "5.0.9",
+    "gulp": "3.9.1",
+    "gulp-clean": "0.4.0",
+    "gulp-typescript": "4.0.2",
+    "lodash": "^4.17.5",
+    "nodemon": "1.17.3",
+    "typescript": "2.8.1"
+  }
+}

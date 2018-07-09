@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "",
+    "password": "",
+    "database": "pll",
+    "host": "127.0.0.1",
+    "port": "27017",
+    "dialect": "mysql",
+    "secret": "F31j40"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "F31j40"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "secret": "F31j40"
+  }
+}
